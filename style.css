@@ -648,7 +648,7 @@ textarea.w-select {
     margin: 0;
     padding: 8px 12px;
     border: 1px solid #cccccc;
-    background-color: #fafafa
+    background-color: #fbf6f6
 }
 
 .w-file-upload-file {
@@ -658,7 +658,7 @@ textarea.w-select {
     margin: 0;
     padding: 8px 9px 8px 11px;
     border: 1px solid #cccccc;
-    background-color: #fafafa
+    background-color: #fbf6f6
 }
 
 .w-file-upload-file-name {
@@ -702,7 +702,7 @@ textarea.w-select {
     margin: 0;
     padding: 8px 12px;
     border: 1px solid #cccccc;
-    background-color: #fafafa
+    background-color: #fbf6f6
 }
 
 .w-icon-file-upload-icon,
@@ -720,6 +720,9 @@ textarea.w-select {
     margin-left: auto;
     margin-right: auto;
     max-width: 940px
+}
+.slides{
+    width: 1000px;
 }
 
 .w-container:before,
@@ -2303,7 +2306,8 @@ textarea.w-select {
 
 body {
     height: 100%;
-    background-color: #424549;
+    background-image: url(./assests/bg2.png);
+    background-color: #e9d9d9;
     font-family: 'Source Sans Pro', sans-serif;
     color: #333;
     font-size: 18px;
@@ -2628,7 +2632,7 @@ figcaption {
 
 .button:hover {
     background-color: rgba(189, 2, 4, 0.7);;
-    box-shadow: 0 8px 18px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 18px 4px rgba(0, 0, 0, 0.3);
     color: #fff;
 }
 
@@ -2816,8 +2820,8 @@ figcaption {
 
 .section {
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     background-color: #fff;
 }
 
@@ -2880,13 +2884,13 @@ figcaption {
 
 .section.feature-section {
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
 .section.feature-section.odd {
     border-top: 1px solid #ececec;
-    background-color: #fafafa;
+    background-color: #fbf6f6;
 }
 
 .section.cta-section {
@@ -2909,7 +2913,7 @@ figcaption {
 
 .section-title-wrapper {
     display: block;
-    width: 60%;
+    width: 100%;
     margin-right: auto;
     margin-bottom: 60px;
     margin-left: auto;
@@ -2945,7 +2949,7 @@ figcaption {
 }
 
 .section-title-wrapper.small-title {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .section-title-wrapper.info {
@@ -2984,8 +2988,8 @@ figcaption {
 }
 
 .section-description {
-    margin-top: 30px;
-    font-size: 21px;
+    margin-top: 20px;
+    /* font-size: 21px; */
     line-height: 27px;
     font-weight: 300;
 }
@@ -3743,7 +3747,7 @@ figcaption {
 .hero-block-overlay {
     padding-top: 270px;
     padding-bottom: 250px;
-    background-color: rgba(0, 0, 0, 0.25);
+    /* background-color: rgba(0, 0, 0, 0.25); */
     color: #fff;
 }
 
@@ -3753,9 +3757,9 @@ figcaption {
 }
 
 .hero-block-overlay.business-2 {
-    padding-top: 230px;
+    padding-top: 140px;
     padding-bottom: 0px;
-    background-color: rgba(218, 123, 123, 0.2);;
+    /* background-color: rgba(218, 123, 123, 0.2);; */
 }
 
 .hero-video-lightbox {
@@ -3883,8 +3887,8 @@ figcaption {
 }
 
 .client-logo {
-    height: 50px;
-    opacity: 0.3;
+    height: 40px;
+    opacity: 0.5;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
 }
@@ -3905,9 +3909,10 @@ figcaption {
 } */
 
 .image-hero.busines-2 {
-    /* background-image: url("./assests/bg2.png"); */
-    /* background-position: 50% 50%; */
+    background-image: url("./assests/bg2.png");
+    background-position: 50% 50%;
     background-size:fit;
+    /* height: 100%; */
 }
 
 .image-hero.download {
@@ -4329,13 +4334,15 @@ figcaption {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #fff;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 20px;
     background-color: transparent;
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     font-size: 12px;
     letter-spacing: 1px;
+    margin: 8px;
 }
 
 .tab-button-left:hover {
@@ -4350,6 +4357,7 @@ figcaption {
 
 .tab-button-right, .tab-button-right2, .tab-button-right3 {
     border-style: solid;
+    
     border-width: 1px 0px 1px 0px;
     border-color: #fff;
     background-color: transparent;
@@ -4357,14 +4365,18 @@ figcaption {
     color: #fff;
     font-size: 12px;
     letter-spacing: 1px;
+    border-radius: 20px;
+    margin: 8px;
 }
 .tab-button-right2{
     border-width: 1px 1px 1px 1px;
 }
 .tab-button-right3 {
     border-width: 1px 1px 1px 1px;
-    border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+    /* border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; */
+        border-radius: 20px;
+        /* margin: 0 4px; */
 }
 
 .tab-button-right:hover {
@@ -4613,9 +4625,19 @@ figcaption {
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
+    max-height: 200px;
+    overflow-x: scroll;
 }
 
+::selection {
+    background: #ffb7b7;
+    /* WebKit/Blink Browsers */
+}
 
+::-moz-selection {
+    background: #ffb7b7;
+    /* Gecko Browsers */
+}
 .worldmap-left-wrapper {
     position: absolute;
     left: -141px;
@@ -5305,9 +5327,9 @@ figcaption {
 
 .full-hero-content-block {
     display: block;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     margin-left: auto;
     text-align: center;
 }
@@ -7559,7 +7581,7 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     }
 
     .client-logo {
-        height: 40px;
+        height: 60px;
     }
 
     .client-logo.small {
@@ -10859,6 +10881,22 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    border-radius: 20px;
+}
+.slide1, .slide2, .slide3{
+    background-image: url(./assests/graphic-bg1.png);
+    background-size: cover;
+    min-height: 516px;
+    display: flex;
+    gap: 100px;
+   text-align: left;
+}
+
+.slide2{
+    background-image: url(./assests/web-bg1.svg);
+}
+.slide3 {
+    background-image: url(./assests/web-bg.jpeg);
 }
 
 /* Caption text */
@@ -10898,13 +10936,13 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
 
 /* Fading animation */
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
 }
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: .2
     }
 
     to {
@@ -10917,4 +10955,8 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     .text {
         font-size: 11px
     }
+}
+
+.w-webflow-badge{
+ visibility: hidden;
 }
