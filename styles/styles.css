@@ -1,0 +1,6 @@
+.landingSection {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  padding: 0.2em 8em;
+  gap: 18px;
+}/*# sourceMappingURL=styles.css.map */

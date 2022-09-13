@@ -722,7 +722,7 @@ textarea.w-select {
     max-width: 940px
 }
 .slides{
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .w-container:before,
@@ -4357,7 +4357,7 @@ figcaption {
 
 .tab-button-right, .tab-button-right2, .tab-button-right3 {
     border-style: solid;
-    
+
     border-width: 1px 0px 1px 0px;
     border-color: #fff;
     background-color: transparent;
