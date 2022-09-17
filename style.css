@@ -10882,21 +10882,29 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     position: relative;
     margin: auto;
     border-radius: 20px;
+    padding-right: 16px;
 }
 .slide1, .slide2, .slide3{
-    background-image: url(./assests/graphic-bg1.png);
-    background-size: cover;
+    background-image: url(./assests/Web\ Dev-Blog2.png);
+    background-size:cover;
     min-height: 516px;
-    display: flex;
+    width: 100%;
+    border-radius: 10px;
+   
+    /* display: flex;
     gap: 100px;
-   text-align: left;
+   text-align: left; */
+
+}
+.slideImg{
+
 }
 
 .slide2{
-    background-image: url(./assests/web-bg1.svg);
+    background-image: url(./assests/graphics2.png);
 }
 .slide3 {
-    background-image: url(./assests/web-bg.jpeg);
+    background-image: url(./assests/uidesign.png);
 }
 
 /* Caption text */
@@ -10960,3 +10968,18 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
 .w-webflow-badge{
  visibility: hidden;
 }
+
+[data-component="slideshow"] .slide {
+    display: none;
+    text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+#slideshow-example{
+    background-color: #e9d9d9;
+    margin-right: 20px;
+}
+
