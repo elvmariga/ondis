@@ -2306,7 +2306,7 @@ textarea.w-select {
 
 body {
     height: 100%;
-    background-image: url(./assests/bg2.png);
+    /* background-image: url(./assests/bg2.png); */
     background-color: #e9d9d9;
     font-family: 'Source Sans Pro', sans-serif;
     color: #333;
@@ -3909,7 +3909,7 @@ figcaption {
 } */
 
 .image-hero.busines-2 {
-    background-image: url("./assests/bg2.png");
+    /* background-image: url("./assests/bg2.png"); */
     background-position: 50% 50%;
     background-size:fit;
     /* height: 100%; */
