@@ -37,6 +37,11 @@
                 (n.className += t + "touch");
         })(window, document);
     </script>
+    <style>
+        .testStyle{
+            display: none;
+        }
+    </style>
     <link href="./assests/favicon2.svg" rel="shortcut icon" type="image/x-icon" />
     <link href="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134805f92dd107_Webclip.png"
         rel="apple-touch-icon" />
@@ -65,19 +70,21 @@
 
         <div class="titles">
             <div class="website">
-                <h2 class="active">Website Development</h2>
+                <h2 onClick={handleWeb} class="active">Website Development</h2>
             </div>
             <div class="graphic-design">
-                <h2>Graphics Design</h2>
+                <h2 ><a href="#graphicsTab">Graphics Design</a></h2>
+              
             </div>
             <div class="UI/UX">
-                <h2>UI/UX Design</h2>
+                <h2 > <a href="#servicesTab">UI/UX Design</a></h2>
             </div>
             <div class="Others">
                 <h2>More Services</h2>
             </div>
         </div>
-        <div class="serviceTab">
+
+        <div id="servicesTab" class="serviceTab">
             <div class="tagline">
                 <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
                 <p class="reach">
@@ -260,7 +267,7 @@
         </div>
 
 
-        <div class="graphicsTab">
+        <div id="graphicsTab" class="graphicsTab">
             <div class="tagline">
                 <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
                 <p class="reach">
