@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="./style.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/a9880d183c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./script.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
     <script type="text/javascript">
         WebFont.load({
             google: {
@@ -66,11 +69,18 @@
                 <div class="landingSectionLeft">
                     <div class="heading">
                         <h1 data-ix="fade-in-on-load" class="overall-hero-title">
-                            All You Need Is An Attractive Website.
+                            All You Need Is An Attractive <span id="greeting" style="color: #bd0204;"></span>.
                         </h1>
-                        <h1 data-ix="fade-in-on-load" class="overall-hero-title" style="color: #bd0204; margin-top: 20px">
+                        <!-- <h3  style="margin-top: 20px; ">
                             Ondis Hub Got You!
-                        </h1>
+                        </h3> -->
+                        <h2 class="ml11"  style="color: #bd0204;">
+                            <span class="text-wrapper">
+                                <span class="line line1"></span>
+                                <span class="letters">Ondis Hub Got You</span>
+                            </span>
+                        </h2>
+
                     </div>
                     <div class="subheading">
                         <span class="titlespan"></span>
@@ -87,10 +97,10 @@
                         </p>
                     </div>
                     <div class="buttonMore">
-                        <a href="https://api.whatsapp.com/send?phone=254700526125" target="_blank"
-                            style="display: inline-block; padding:9px; border-radius: 8px; font-weight:500; background-color: #25D366; color: #fff; text-decoration: none; font-family: sans-serif; font-size: 16px;">Contact
+                        <a href="https://api.whatsapp.com/send?phone=254700526125" target="_blank" class="button outline w-button"
+                            style="display: inline-block; padding:9px; border-radius: 5px; font-weight:500; background-color: #25D366; color: #fff; text-decoration: none; font-family: sans-serif; font-size: 16px;">Contact
                             us <i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                        <a href="index.html#email-form" data-ix="fade-in-on-load-3" class="button outline w-button">Learn more</a>
+                        <a href="./contact.html" data-ix="fade-in-on-load-3" style="border-radius: 5px;" class="button outline w-button">Learn more</a>
                     </div>
                 </div>
                 <div class="landingSectionRight">
@@ -157,8 +167,7 @@
                 <p>
                     Our responsive website let's your prospects enjoy a great
                     exprerience on any screen size and orientation while interacting
-                    with your online office. A fully optimized websitr drives more sales
-                    and awareness
+                    with your online office.
                 </p>
                 <div class="small-features-wrapper">
                     <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
@@ -220,8 +229,7 @@
                 <h2 class="section-title">This is how we work</h2>
                 <div class="section-description">
                 ONDIS Hub gathers a team of dedicated and creative designers ready to transfer their skills and experience into a
-                tailor-made Website and Graphics Designs for you. Get the insight into our capability of turning creative ideas into a
-                perfectly customer tailored design projects
+                tailor-made Website and Graphics Designs for you. 
                 </div>
             </div>
             <div class="process-tabs-line w-hidden-tiny"></div>
@@ -328,7 +336,7 @@
                     </div>
                 </div>
             </div>
-            <div class="top-line-block">
+            <!-- <div class="top-line-block">
                 <div class="text-row w-row">
                     <div class="text-column w-col w-col-3">
                         <div class="text-column-title number">1</div> <br>
@@ -369,7 +377,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="section wf-section">
@@ -816,70 +824,14 @@
                             <div>UI/UX Plans</div>
                         </a>
                         <a data-w-tab="Tab 4" class="tab-button-right3 w-inline-block w-tab-link">
-                            <div>UI/UX Plans</div>
+                            <div>Other Services</div>
                         </a>
                     </div>
                     <div class="w-tab-content">
                         <div data-w-tab="Tab 1" class="pricing-tab-pane w-tab-pane w--tab-active">
                             <div class="pricing-row w-row">
                                 <div class="pricing-column w-col w-col-4">
-                                    <!-- <div class="white-pricing-block ">
-                                        <div class="white-pricing-title">Medium Project</div>
-                                        <div class="pricing-icon-block">
-                                            <img src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134847712dd094_Icon-strong.png"
-                                                alt="" class="pricing-icon" />
-                                        </div>
-                                        <div class="white-price-title">$99</div>
-                                        <ul role="list" class="pricing-feature-list w-list-unstyled">
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i> 4 Unique Pages Design
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i> 1 Basic Contact/Inquiry
-                                                    Form
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i> 100% Unique Design
-                                                    Guarantee
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i>Site Upload & Setup of
-                                                    domain emails
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i>SEO Optimization
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i>Products/Services
-                                                    Showcasing module
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i>Analytics dashboard
-                                                </p>
-                                            </li>
-                                            <li class="pricing-feature-item">
-                                                <p class="pricing-feature-text">
-                                                    <i class="fa-regular fa-circle-check"></i>2 months free support
-                                                    after delivery
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a href="/contact/contact-5" class="button dark-outline w-button">Get in
-                                            touch!</a>
-                                    </div> -->
+                                   
                                     <div class="white-pricing-block">
                                         <div class="pricing-block-content-wrapper">
                                             <div class="pricing-block-title">Basic</div>
@@ -937,7 +889,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="#former"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1022,7 +974,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="#former"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1127,7 +1079,7 @@
 
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="#former"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1135,7 +1087,7 @@
                             </div>
                             <p>
                                 <strong>Can&#x27;t decide?</strong> Don&#x27;t hesitate to
-                                <a href="index.html#email-form" class="white-link">contact us</a>!
+                                <a href="#former" class="white-link">contact us</a>!
                             </p>
                         </div>
                         <div data-w-tab="Tab 2" class="pricing-tab-pane w-tab-pane">
@@ -1173,7 +1125,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="./contact.html"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1211,7 +1163,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="./contact.html"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1249,7 +1201,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="./contact.html"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
@@ -1257,7 +1209,7 @@
                             </div>
                             <p>
                                 <strong>Can&#x27;t decide?</strong> Don&#x27;t hesitate to
-                                <a href="index.html#email-form" class="white-link">contact us</a>!
+                                <a href="./contact.html" class="white-link">contact us</a>!
                             </p>
                         </div>
                         <div data-w-tab="Tab 3" class="pricing-tab-pane w-tab-pane">
@@ -1295,7 +1247,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="#" class="button white-pricing-button w-button">Get in touch
+                                            <a href="#former" class="button white-pricing-button w-button">Get in touch
                                                 now</a>
                                         </div>
                                     </div>
@@ -1333,7 +1285,7 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="#" class="button white-pricing-button w-button">Get in touch
+                                            <a href="#former" class="button white-pricing-button w-button">Get in touch
                                                 now</a>
                                         </div>
                                     </div>
@@ -1371,15 +1323,15 @@
                                             </li>
                                         </ul>
                                         <div class="pricing-block-content-wrapper bottom">
-                                            <a href="index.html#email-form"
+                                            <a href="#former"
                                                 class="button white-pricing-button w-button">Get in touch now</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <p>
-                                <strong>Can&#x27;t decide?</strong> Don&#x27;t hesitate to
-                                <a href="index.html#email-form" class="white-link">contact us</a>!
+                                <strong> <i>Can&#x27;t decide?</strong></i>  Don&#x27;t hesitate to
+                                <a href="#former" class="white-link">Contact us!</a>
                             </p>
                         </div>
                     </div>
@@ -1395,8 +1347,8 @@
             <div class="map-marker"></div> -->
                     <img src="./assests/map.png" alt="" class="worldmap-left" />
                 </div>
-                <div class="map-contact-form w-form">
-                    <form id="wf-form-Email-Form" name="wf-form-Email-Form-4" data-name="Email Form 4" method="get">
+                <div class="map-contact-form w-form" id="former">
+                    <form id="wf-form-Email-Form " name="wf-form-Email-Form-4" data-name="Email Form 4" method="get">
                         <h1 class="form-title">Contact us now</h1>
                         <h2 class="form-title subtitle">
                             Do you have a question? Contact us now!
@@ -1570,6 +1522,54 @@
             }, time);
         }
     </script>
+    <script>
+        var text = ["Website", "Graphics", "UI/UX Design"];
+            var counter = 0;
+            var elem = $("#greeting");
+            setInterval(change, 3000);
+            function change() {
+                elem.fadeOut(function () {
+                    elem.html(text[counter]);
+                    counter++;
+                    if (counter >= text.length) { counter = 0; }
+                    elem.fadeIn();
+                });
+            }
+    </script>
+   <script>
+    // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml11 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml11 .line',
+                scaleY: [0, 1],
+                opacity: [0.5, 1],
+                easing: "easeOutExpo",
+                duration: 700
+            })
+            .add({
+                targets: '.ml11 .line',
+                translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 100
+            }).add({
+                targets: '.ml11 .letter',
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 600,
+                offset: '-=775',
+                delay: (el, i) => 34 * (i + 1)
+            }).add({
+                targets: '.ml11',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+   </script>
 </body>
 
 </html>
