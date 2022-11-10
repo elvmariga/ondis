@@ -67,8 +67,16 @@
     </div>
 
     <div class="main-services">
+        <div class="subpage-header  about-6 wf-section">
+            <div class="container w-container">
+                <h1 data-ix="fade-in-on-load" class="subpage-title">
+                    <!-- <b>Our Services.</b> -->
+                </h1>
 
+            </div>
+        </div>
         <div class="titles">
+
             <div class="website">
                 <h2 onClick={handleWeb} class="active"><a href="#former">Website Development</a></h2>
             </div>
@@ -76,17 +84,18 @@
                 <h2><a href="#graphicsTab">Graphics Design</a></h2>
 
             </div>
-            <div class="UI/UX">
+            <!-- <div class="UI/UX">
                 <h2> <a href="#uiTab">UI/UX Design</a></h2>
             </div>
             <div class="thers">
                 <h2><a href="#otherTab">More Services</a></h2>
-            </div>
+            </div> -->
         </div>
 
         <div id="servicesTab" class="serviceTab">
             <div class="tagline">
                 <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
+                <h1 style=" color: #bd0204;">Website Development</h1>
                 <p class="reach">
 
                     Reach out to your customer, boost your onlines sales and be different, through our effective and
@@ -121,7 +130,7 @@
                         </ul>
 
                         <a class="quote" href="./contact.html">
-                            Get a Free Quote
+                            Get Quote
                         </a>
                     </div>
                 </div>
@@ -156,7 +165,7 @@
                     </ul>
 
                     <a class="quote" href="./contact.html">
-                        Get a Free Quote
+                        Get Quote
                     </a>
                 </div>
             </div>
@@ -203,7 +212,7 @@
                             <li>After Sales Servces</li>
                         </ul>
                         <a class="quote" href="./contact.html">
-                            Get a Free Quote
+                            Get Quote
                         </a>
                     </div>
                 </div>
@@ -260,265 +269,605 @@
                     </ul>
 
                     <a class="quote" href="./contact.html">
-                        Get a Free Quote
+                        Get Quote
                     </a>
                 </div>
             </div>
         </div>
 
 
-        <div id="graphicsTab" class="designTab">
-            <div class="tagline">
-                <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
-                <p class="reach">
+        <!-- <div class="liner">
 
-                    Graphics designs easily allow you to communicate your ideas faster and easier. We have a range of
-                    designs to choose from
-                    for your business and awareness needs.
-                </p>
+        </div> -->
+        <div class="graphic" id="graphicsTab">
+            <div class="designsTab">
+                <div class="tagline">
+                    <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
 
-                <!-- <p class="end"><i class="fa-solid fa-quote-right"></i></p> -->
+                    <h1>Graphic Designs </h1>
+                    <p class="reach">
 
-            </div>
-            <div class="line">
-                <img src="../assests/line.png" alt="">
-            </div>
-            <div class="tab logo">
-                <div>
-                    <h3>Logo</h3>
+                        Graphics designs easily allow you to communicate your ideas faster and easier. We have a range
+                        of
+                        designs to choose from
+                        for your business and awareness needs.
+                    </p>
+
+                    <!-- <p class="end"><i class="fa-solid fa-quote-right"></i></p> -->
+
                 </div>
-                <p>Jumpstart Your Business with a Perfect Logo Design</p>
+            </div>
+            <div class="designsTab2">
+                <div class="tabContent">
+                    <div class="logos">
+                        <div class="line">
+                            <img src="../assests/line.png" alt="">
+                        </div>
 
-                <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
-                                    alt="" class="portfolio-image" />
+                        <h3>Logos</h3>
+                        <p>This includes logos, emblems, corporate design, background pattern, names, and addresses that
+                            conform
+                            to
+                            the current
+                            branding and marketing plans</p>
+
+                        <div>
+
+                        </div>
+
+                        <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay"
+                                        style="
+                                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                                                                        "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay"
+                                        style="
+                                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                                                                        "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay"
+                                        style="
+                                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                                                                        "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
                             </div>
                         </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
-                                        " class="portfolio-item-block"></div>
 
-                        </a>
+
+
+                        <div>
+                            <a class="quote" href="./contact.html">
+                                Get Quote
+                            </a>
+                        </div>
                     </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
-                                        " class="portfolio-item-block"></div>
+                </div>
+            </div>
 
-                        </a>
+
+            <div class="designsTab">
+                <!-- letterhead -->
+
+
+                <div class="letterhead">
+                    <div class="line">
+                        <img src="../assests/line.png" alt="">
                     </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
-                                        " class="portfolio-item-block"></div>
 
+                    <h3>Letterheads</h3>
+                    <p>This includes logos, emblems, corporate design, background pattern, names, and addresses that
+                        conform
+                        to
+                        the current
+                        branding and marketing plans</p>
+
+                    <div>
+
+                    </div>
+
+                    <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                              background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                            "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                              background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                            "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                              background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                            "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <a class="quote" href="./contact.html">
+                            Get Quote
                         </a>
                     </div>
                 </div>
-
-
-
-                <a class="quote" href="./contact.html">
-                    Get a Free Quote
-                </a>
-
             </div>
+
+            <div class="designsTab2">
+                <div class="tabContent">
+                    <!-- business cards -->
+
+                    <div class="business-cards">
+                        <div class="line">
+                            <img src="../assests/line.png" alt="">
+                        </div>
+
+                        <h3>Business Cards</h3>
+                        <p>Customizable designs, papers, shapes & more. Find the right card for you</p>
+                        <p style="font-weight: 200; font-size: 16px;">Square Corner | Rounded Corner | Embossed Gloss |
+                            Foil
+                            Accent</p>
+                        <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                      background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                                    "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                      background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                                    "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                      background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                                    "
+                                        class="portfolio-item-block">
+                                    </div>
+
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="quote" href="./contact.html">
+                                Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="designsTab">
+                <!-- bronchues -->
+
+                <div class="bronchues">
+                    <div class="line">
+                        <img src="../assests/line.png" alt="">
+                    </div>
+
+                    <h3>Bronchues</h3>
+                    <p>With brochues, there are many ways to show off your products and services.Our neatly designed
+                        brochures helps your
+                        business or individual pursuits get attention</p>
+
+                    <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay"
+                                    style="
+                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                                                        "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay"
+                                    style="
+                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                                                        "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay"
+                                    style="
+                                                                                                                                          background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                                                        "
+                                    class="portfolio-item-block">
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="quote" href="./contact.html">
+                            Get Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="designsTab2">
+                <div class="tabContent">
+                    <!-- Banners & Roll-up Banners -->
+
+                    <div class="banners">
+                        <div class="line">
+                            <img src="../assests/line.png" alt="">
+                        </div>
+
+                        <h3>Banners & Roll-up Banners</h3>
+                        <p>With brochures, there are many ways to show off your products and services.Our neatly
+                            designed brochures
+                            helps your
+                            business or individual pursuits get attention</p>
+
+                        <div>
+
+                        </div>
+
+                        <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                                "
+                                        class="portfolio-item-block"></div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                                "
+                                        class="portfolio-item-block"></div>
+
+                                </a>
+                            </div>
+                            <div data-ix="show-block-overlay" role="listitem"
+                                class="portfolio-item w-dyn-item w-col w-col-4">
+                                <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                    <div class="portfolio-image-wrapper">
+                                        <a href="#" data-ix="close-lightbox"
+                                            class="close-lightbox-button w-inline-block"><img
+                                                src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                                alt="" class="lightbox-close-icon" /></a><img
+                                            src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                            alt="" class="portfolio-image" />
+                                    </div>
+                                </div>
+                                <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                    <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                                "
+                                        class="portfolio-item-block"></div>
+
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        <div>
+                            <a class="quote" href="./contact.html">
+                                Get Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="designsTab">
+                <!-- Social Media Headers -->
+
+                <div class="socialheads">
+                    <div class="line">
+                        <img src="../assests/line.png" alt="">
+                    </div>
+
+                    <h3>Social Media Headers</h3>
+                    <p>Create an impactful brand image with outstanding social media header designs</p>
+                    <p style="font-weight: 200; font-size: 16px;">LinkedIn <i class="fa-brands fa-linkedin fa-xl"></i> |
+                        Twitter <i class="fa-brands fa-twitter fa-xl"></i> | Facebook <i
+                            class="fa-brands fa-facebook fa-xl"></i>|
+                        Instagram <i class="fa-brands fa-square-instagram fa-xl"></i>
+                    </p>
+                    <div>
+
+                    </div>
+
+                    <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
+                                                                                                                "
+                                    class="portfolio-item-block"></div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
+                                                                                                                "
+                                    class="portfolio-item-block"></div>
+
+                            </a>
+                        </div>
+                        <div data-ix="show-block-overlay" role="listitem"
+                            class="portfolio-item w-dyn-item w-col w-col-4">
+                            <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
+                                <div class="portfolio-image-wrapper">
+                                    <a href="#" data-ix="close-lightbox"
+                                        class="close-lightbox-button w-inline-block"><img
+                                            src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
+                                            alt="" class="lightbox-close-icon" /></a><img
+                                        src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
+                                        alt="" class="portfolio-image" />
+                                </div>
+                            </div>
+                            <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
+                                <div data-ix="show-block-overlay" style="
+                                                                                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
+                                                                                                                "
+                                    class="portfolio-item-block"></div>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <a class="quote" href="./contact.html">
+                            Get Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="designsTab2">
+                <div class="tabContent">
+                    <div class="designsTab2">
+                        <div class="tabContent">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div id="uiTab" class="ui/uxTab">
-            <div class="tagline">
-                <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
-                <p class="reach">
-        
-                    Graphics designs easily allow you to communicate your ideas faster and easier. We have a range of
-                    designs to choose from
-                    for your business and awareness needs.
-                </p>
-        
-                <!-- <p class="end"><i class="fa-solid fa-quote-right"></i></p> -->
-        
-            </div>
-            <div class="line">
-                <img src="../assests/line.png" alt="">
-            </div>
-            <div class="tab logo">
-                <div>
-                    <h3>Logo</h3>
-                </div>
-                <p>Jumpstart Your Business with a Perfect Logo Design</p>
-        
-                <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                </div>
-        
-        
-        
-                <a class="quote" href="./contact.html">
-                    Get a Free Quote
-                </a>
-        
-            </div>
-        </div>
-        <div id="otherTab" class="othersTab">
-            <div class="tagline">
-                <!-- <p><i class="fa-solid fa-quote-left"></i></p> -->
-                <p class="reach">
-        
-                    Graphics designs easily allow you to communicate your ideas faster and easier. We have a range of
-                    designs to choose from
-                    for your business and awareness needs.
-                </p>
-        
-                <!-- <p class="end"><i class="fa-solid fa-quote-right"></i></p> -->
-        
-            </div>
-            <div class="line">
-                <img src="../assests/line.png" alt="">
-            </div>
-            <div class="tab logo">
-                <div>
-                    <h3>Logo</h3>
-                </div>
-                <p>Jumpstart Your Business with a Perfect Logo Design</p>
-        
-                <div role="list" class="portfolio-list w-clearfix w-dyn-items w-row">
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348f81c2dd052_Photo-2.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae1348795a2dd05a_Webflow-Photo.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                    <div data-ix="show-block-overlay" role="listitem" class="portfolio-item w-dyn-item w-col w-col-4">
-                        <div data-ix="hide-lightbox" class="portfolio-lightbox-overlay">
-                            <div class="portfolio-image-wrapper">
-                                <a href="#" data-ix="close-lightbox" class="close-lightbox-button w-inline-block"><img
-                                        src="https://uploads-ssl.webflow.com/62e28869ae1348138d2dd03c/62e2886aae134831092dd158_Icon-close-thin.png"
-                                        alt="" class="lightbox-close-icon" /></a><img
-                                    src="https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg"
-                                    alt="" class="portfolio-image" />
-                            </div>
-                        </div>
-                        <a href="#" data-ix="show-lightbox" class="portfolio-lightbox-block w-inline-block">
-                            <div data-ix="show-block-overlay" style="
-                                                  background-image: url('https://uploads-ssl.webflow.com/62e2886aae134838722dd040/62e2886aae13489c8d2dd059_Photo-7.jpg');
-                                                " class="portfolio-item-block"></div>
-        
-                        </a>
-                    </div>
-                </div>
-        
-        
-        
-                <a class="quote" href="./contact.html">
-                    Get a Free Quote
-                </a>
-        
-            </div>
-        </div>
+
+
+
     </div>
 
     </div>
