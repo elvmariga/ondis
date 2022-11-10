@@ -43,12 +43,12 @@
 }
 .main-services .titles {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  gap: 2rem;
+  justify-content: center;
   padding: 0 1reem;
   width: 80%;
-  margin: 0.5rem auto;
+  margin: 2rem auto 1rem auto;
 }
 .main-services .titles .active {
   color: #bd0204;
@@ -58,13 +58,20 @@
   margin: 0;
   font-weight: 600;
 }
+.main-services .titles h2 a {
+  text-decoration: none;
+  color: #272f46;
+}
+.main-services .titles h2 a:hover {
+  color: #bd0204;
+}
 .main-services .titles h2:hover {
   transform: scale(1.1, 1.1);
   color: #bd0204;
 }
 .main-services .tagline {
   width: 80%;
-  margin: 2rem auto;
+  margin: 0rem auto;
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
@@ -82,6 +89,7 @@
 }
 .main-services .line {
   align-self: center;
+  margin-top: 1rem;
 }
 .main-services .line img {
   width: 50%;
@@ -124,15 +132,32 @@
   gap: 0.5rem;
   list-style-type: circle;
 }
-.main-services .graphicsTab, .main-services .uiTab, .main-services .otherTab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.main-services .graphic {
+  background-color: #fcf6f6;
+  padding: 4px;
+}
+.main-services .graphic .designsTab2 {
+  background-color: #FFFFFF;
+  padding-bottom: 0.5rem;
+}
+.main-services .graphic .designsTab2 .tabContent {
   width: 80%;
+  margin: 2rem auto;
+  display: grid;
   text-align: center;
-  margin: 0 auto;
-  display: none;
+}
+.main-services .graphic .designsTab,
+.main-services .graphic .ui-uxTab,
+.main-services .graphic .othersTab {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  text-align: center;
+}
+.main-services .graphic .designsTab .line,
+.main-services .graphic .ui-uxTab .line,
+.main-services .graphic .othersTab .line {
+  align-self: center;
 }
 
 /*End Service Page*/

@@ -41,7 +41,13 @@
 .main-services {
   margin-top: 8rem;
 
-
+// .liner{
+//   height: 8px;
+//   width: 2px;
+//   background-color: #bd0204;
+//   display: grid;
+//   justify-self: center;
+// }
   .quote{
       text-decoration: none;
       padding: 6px 12px;
@@ -59,12 +65,14 @@
 
   .titles {
     display: flex;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 2rem;
+    justify-content: center;
     padding: 0 1reem;
     width: 80%;
-    margin: .5rem auto;
+    margin: 2rem  auto 1rem auto;
+    
 
     .active {
       color: #bd0204;
@@ -74,6 +82,15 @@
     h2 {
       margin: 0;
       font-weight: 600;
+      
+
+      a{
+        text-decoration: none;
+        color: #272f46;
+        &:hover{
+          color: #bd0204;
+        }
+      }
 
       &:hover {
         transform: scale(1.1, 1.1);
@@ -84,7 +101,7 @@
 
   .tagline {
     width: 80%;
-    margin: 2rem auto;
+    margin: 0rem auto;
     padding: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -106,6 +123,7 @@
 
   .line {
     align-self: center;
+    margin-top: 1rem;
 
     img {
       width: 50%;
@@ -168,17 +186,45 @@
     }
   }
 
-  .graphicsTab, .uiTab,.otherTab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    display: none;
-    
+  .graphic{
+    background-color:  #fcf6f6;
+    padding: 4px;
 
+    .designsTab2{
+      background-color: #FFFFFF;
+      padding-bottom: .5rem;
+      .tabContent{
+        width: 80%;
+          margin: 2rem auto;
+        
+          display: grid;
+          // justify-items: center;
+          text-align: center;
+          // flex-direction: column;
+      }
+
+    }
+    .designsTab,
+      .ui-uxTab,
+      .othersTab {
+    
+        width: 80%;
+        margin: 2rem auto;
+    
+        display: grid;
+        // justify-items: center;
+        text-align: center;
+        // flex-direction: column;
+    
+        .line {
+    
+          align-self: center;
+        }
+    
+    
+    
+    
+      }
   }
 }
 
