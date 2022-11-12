@@ -48,7 +48,7 @@
   justify-content: center;
   padding: 0 1reem;
   width: 80%;
-  margin: 2rem auto 1rem auto;
+  margin: 2rem auto;
 }
 .main-services .titles .active {
   color: #bd0204;
@@ -61,25 +61,32 @@
 .main-services .titles h2 a {
   text-decoration: none;
   color: #272f46;
+  border: solid 2px #272f46;
+  border-radius: 4px;
+  padding: 8px;
 }
 .main-services .titles h2 a:hover {
   color: #bd0204;
+  border: solid 2px #bd0204;
 }
 .main-services .titles h2:hover {
   transform: scale(1.1, 1.1);
   color: #bd0204;
 }
 .main-services .tagline {
-  width: 80%;
   margin: 0rem auto;
-  padding: 1rem 0;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 500;
+  background-color: #232B40;
+}
+.main-services .tagline h1 {
+  color: #bd0204;
 }
 .main-services .tagline .reach {
-  color: #2D0100;
+  color: #FFFFFF;
   text-align: center;
   font-size: 1.5rem;
   width: 70%;
@@ -109,7 +116,7 @@
   height: auto;
 }
 .main-services .serviceTab .outer {
-  background-color: #fcf6f6;
+  background-color: #e8e9eb;
 }
 .main-services .serviceTab .outer .tab {
   width: 80%;
@@ -159,7 +166,7 @@
   list-style-type: circle;
 }
 .main-services .graphic {
-  background-color: #fcf6f6;
+  background-color: hsla(223deg, 29%, 19%, 0.1);
   padding: 4px;
 }
 .main-services .graphic .designsTab2 {
@@ -237,14 +244,21 @@
 
 /*About us page*/
 .aboutUs img {
-  width: 70%;
+  width: 80%;
   height: auto;
+}
+.aboutUs h1 {
+  color: #bd0204;
+}
+.aboutUs p {
+  font-size: 1.5rem;
 }
 .aboutUs .cont .aboutDetails {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   padding: 2rem 0;
 }
@@ -255,7 +269,7 @@
   flex-direction: row-reverse;
 }
 .aboutUs .tinted {
-  background-color: #272f46;
+  background-color: hsla(223deg, 29%, 19%, 0.4);
   color: #FFFFFF;
 }
 
