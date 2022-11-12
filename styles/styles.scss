@@ -71,7 +71,7 @@
     justify-content: center;
     padding: 0 1reem;
     width: 80%;
-    margin: 2rem auto 1rem auto;
+    margin: 2rem auto;
 
 
     .active {
@@ -82,14 +82,23 @@
     h2 {
       margin: 0;
       font-weight: 600;
+      
+     
+      &:hover{
+        
+      }
 
 
       a {
         text-decoration: none;
         color: #272f46;
+        border: solid 2px #272f46;
+          border-radius: 4px;
+          padding: 8px;
 
         &:hover {
           color: #bd0204;
+          border: solid 2px #bd0204;
         }
       }
 
@@ -101,17 +110,20 @@
   }
 
   .tagline {
-    width: 80%;
+    // width: 80%;
     margin: 0rem auto;
-    padding: 1rem 0;
+    padding: 4rem ;
     display: flex;
     flex-direction: column;
     align-items: center;
     // justify-self: end;
     font-weight: 500;
-
+    background-color: #232B40;
+    h1{
+      color: #bd0204;
+    }
     .reach {
-      color: #2D0100;
+      color: #FFFFFF;
       text-align: center;
       font-size: 1.5rem;
       width: 70%;
@@ -151,7 +163,7 @@
     }
 
     .outer {
-      background-color: #fcf6f6;
+      background-color: #e8e9eb;
 
       // color: red;
       .tab {
@@ -223,7 +235,7 @@
   }
 
   .graphic {
-    background-color: #fcf6f6;
+    background-color: hsla(223, 29%, 19%, 0.1);
     padding: 4px;
 
     .designsTab2 {
@@ -344,8 +356,15 @@
 
 .aboutUs{
   img{
-    width: 70%;
+    width: 80%;
     height: auto;
+  }
+
+  h1{
+    color: #bd0204;
+  }
+  p{
+    font-size: 1.5rem
   }
  .cont{
   .aboutDetails {
@@ -353,6 +372,7 @@
     margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       justify-content: space-between;
       padding: 2rem 0;
       .tinted-right{
@@ -365,7 +385,7 @@
  }
 
  .tinted{
-  background-color: #272f46;
+  background-color:  hsla(223, 29%, 19%, 0.4);
  
   color: #FFFFFF;
  }
