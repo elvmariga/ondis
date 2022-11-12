@@ -4702,7 +4702,7 @@ change:hover {
   line-height: 20px;
   text-decoration: none;
   max-height: 200px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 ::selection {
